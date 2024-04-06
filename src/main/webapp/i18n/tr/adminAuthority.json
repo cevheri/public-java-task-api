@@ -1,0 +1,23 @@
+{
+  "taskApp": {
+    "adminAuthority": {
+      "home": {
+        "title": "Authorities",
+        "refreshListLabel": "Listeyi yenile",
+        "createLabel": "Yeni Authority ekle",
+        "createOrEditLabel": "Yeni Authority ekle veya guncelle",
+        "notFound": "Authorities kaydi bulunamadi"
+      },
+      "created": "{{ param }} ID ile bir Authority eklendi",
+      "updated": "{{ param }} nolu Authority guncellendi",
+      "deleted": "{{ param }} nolu Authority silindi",
+      "delete": {
+        "question": "{{ id }} nolu Authority silinecek. Devem etmek istiyor musunuz?"
+      },
+      "detail": {
+        "title": "Authority"
+      },
+      "name": "Name"
+    }
+  }
+}
