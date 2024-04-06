@@ -5,12 +5,17 @@
 
     <groupId>com.cevheri.task</groupId>
     <artifactId>task</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Task</name>
     <description>Description for Task</description>
 
+    <version>0.0.2</version>
     <properties>
+        <api-ver>0.0.2</api-ver>
+        <container.tag>0.0.2</container.tag>
+        <container.registry>ghcr.io/</container.registry>
+        <container.name>task/task</container.name>
+
         <!--
             Build properties
             The spring-boot version should match the one managed by https://mvnrepository.com/artifact/tech.jhipster/jhipster-dependencies/${jhipster-dependencies.version}
