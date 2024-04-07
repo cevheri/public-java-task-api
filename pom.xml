@@ -9,10 +9,10 @@
     <name>Task</name>
     <description>Description for Task</description>
 
-    <version>0.0.5</version>
+    <version>0.0.6</version>
     <properties>
-        <api-ver>0.0.5</api-ver>
-        <container.tag>0.0.5</container.tag>
+        <api-ver>0.0.6</api-ver>
+        <container.tag>0.0.6</container.tag>
         <container.registry>ghcr.io/</container.registry>
         <container.name>task/task</container.name>
 
@@ -945,9 +945,14 @@
                 <!-- default Spring profiles -->
                 <spring.profiles.active>prod${profile.api-docs}${profile.tls}${profile.e2e}${profile.no-liquibase}</spring.profiles.active>
                 <profile.test>testprod</profile.test>
-                <liquibase-plugin.hibernate-dialect>org.hibernate.dialect.PostgreSQLDialect</liquibase-plugin.hibernate-dialect>
-                <liquibase-plugin.driver>org.postgresql.Driver</liquibase-plugin.driver>
-                <liquibase-plugin.url>jdbc:postgresql://localhost:5432/task</liquibase-plugin.url>
+<!--                <liquibase-plugin.hibernate-dialect>org.hibernate.dialect.PostgreSQLDialect</liquibase-plugin.hibernate-dialect>-->
+<!--                <liquibase-plugin.driver>org.postgresql.Driver</liquibase-plugin.driver>-->
+<!--                <liquibase-plugin.url>jdbc:postgresql://localhost:5432/task</liquibase-plugin.url>-->
+<!--                <liquibase-plugin.username>task</liquibase-plugin.username>-->
+<!--                <liquibase-plugin.password/>-->
+                <liquibase-plugin.hibernate-dialect>org.hibernate.dialect.H2Dialect</liquibase-plugin.hibernate-dialect>
+                <liquibase-plugin.driver>org.h2.Driver</liquibase-plugin.driver>
+                <liquibase-plugin.url>jdbc:h2:file:${project.build.directory}/h2db/db/task</liquibase-plugin.url>
                 <liquibase-plugin.username>task</liquibase-plugin.username>
                 <liquibase-plugin.password/>
             </properties>
@@ -1028,6 +1033,10 @@
                 <dependency>
                     <groupId>org.postgresql</groupId>
                     <artifactId>postgresql</artifactId>
+                </dependency>
+                <dependency>
+                    <groupId>com.h2database</groupId>
+                    <artifactId>h2</artifactId>
                 </dependency>
             </dependencies>
         </profile>

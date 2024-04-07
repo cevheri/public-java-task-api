@@ -10,7 +10,7 @@ import tech.jhipster.config.JHipsterConstants;
 public class LoggingAspectConfiguration {
 
     @Bean
-    @Profile(JHipsterConstants.SPRING_PROFILE_DEVELOPMENT)
+    @Profile({ JHipsterConstants.SPRING_PROFILE_DEVELOPMENT, JHipsterConstants.SPRING_PROFILE_PRODUCTION })
     public LoggingAspect loggingAspect(Environment env) {
         return new LoggingAspect(env);
     }

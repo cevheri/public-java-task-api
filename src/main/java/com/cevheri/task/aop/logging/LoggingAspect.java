@@ -67,7 +67,7 @@ public class LoggingAspect {
      */
     @AfterThrowing(pointcut = "applicationPackagePointcut() && springBeanPointcut()", throwing = "e")
     public void logAfterThrowing(JoinPoint joinPoint, Throwable e) {
-        if (env.acceptsProfiles(Profiles.of(JHipsterConstants.SPRING_PROFILE_DEVELOPMENT))) {
+        if (env.acceptsProfiles(Profiles.of(JHipsterConstants.SPRING_PROFILE_DEVELOPMENT, JHipsterConstants.SPRING_PROFILE_PRODUCTION))) {
             logger(joinPoint).error(
                 "Exception in {}() with cause = '{}' and exception = '{}'",
                 joinPoint.getSignature().getName(),

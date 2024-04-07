@@ -32,8 +32,15 @@ spring:
     livereload:
       enabled: false
   datasource:
+    #    type: com.zaxxer.hikari.HikariDataSource
+    #    url: jdbc:postgresql://localhost:5432/task
+    #    username: task
+    #    password:
+    #    hikari:
+    #      poolName: Hikari
+    #      auto-commit: false
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:postgresql://localhost:5432/task
+    url: jdbc:h2:mem:j821;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
     username: task
     password:
     hikari:
@@ -41,7 +48,7 @@ spring:
       auto-commit: false
   # Replace by 'prod, faker' to add the faker context and have sample data loaded in production
   liquibase:
-    contexts: prod
+    contexts: dev
   mail:
     host: localhost
     port: 25

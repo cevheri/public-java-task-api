@@ -98,7 +98,7 @@ public class SecurityConfiguration {
                         .accessDeniedHandler(new BearerTokenAccessDeniedHandler())
             )
             .oauth2ResourceServer(oauth2 -> oauth2.jwt(withDefaults()));
-        if (env.acceptsProfiles(Profiles.of(JHipsterConstants.SPRING_PROFILE_DEVELOPMENT))) {
+        if (env.acceptsProfiles(Profiles.of(JHipsterConstants.SPRING_PROFILE_DEVELOPMENT, JHipsterConstants.SPRING_PROFILE_PRODUCTION))) {
             http.authorizeHttpRequests(authz -> authz.requestMatchers(antMatcher("/h2-console/**")).permitAll());
         }
         return http.build();
