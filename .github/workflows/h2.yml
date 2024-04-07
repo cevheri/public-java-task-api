@@ -1,11 +1,11 @@
-name: Build and and publish gchr.io
+name: Build and and publish gchr.io H2
 on:
   push:
     branches:
       - h2
 jobs:
   pipeline:
-    name: CI and CD Pipeline
+    name: CI and CD Pipeline for H2
     runs-on: ubuntu-latest
     permissions: write-all
     if: "!contains(github.event.head_commit.message, '[ci skip]') && !contains(github.event.head_commit.message, '[skip ci]') && !contains(github.event.pull_request.title, '[skip ci]') && !contains(github.event.pull_request.title, '[ci skip]')"
