@@ -88,6 +88,14 @@ jobs:
           docker push ghcr.io/cevheri/task:latest
           docker push ghcr.io/cevheri/task:${{env.PROJECT_VERSION}}
 
+      - name: Login to Docker hub and push the image
+        run: |
+          echo "${{ secrets.DOCKER_PASSWORD }}" | docker login ghcr.io -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
+          docker tag task:latest ${{ secrets.DOCKER_USERNAME }}/public-api:latest
+          docker tag task:latest ${{ secrets.DOCKER_USERNAME }}/public-api:${{env.PROJECT_VERSION}}
+          docker push ${{ secrets.DOCKER_USERNAME }}/public-api:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/public-api:${{env.PROJECT_VERSION}}
+
       - name: Write an approve comment to the PR after the build is successful
         if: github.event_name == 'pull_request' && (github.ref == 'refs/heads/main')
         uses: actions/github-script@v3
