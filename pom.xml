@@ -21,7 +21,7 @@
             The spring-boot version should match the one managed by https://mvnrepository.com/artifact/tech.jhipster/jhipster-dependencies/${jhipster-dependencies.version}
         -->
         <maven.version>3.2.5</maven.version>
-        <java.version>17</java.version>
+        <java.version>21</java.version>
         <node.version>v20.11.1</node.version>
         <npm.version>10.5.0</npm.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

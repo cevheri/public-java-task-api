@@ -1,9 +1,6 @@
 ## Dockerfile for jhipster spring-boot angular application
-FROM node:20.11.1 AS generator
 
-
-
-FROM eclipse-temurin:17.0.9_9-jdk-focal AS build
+FROM eclipse-temurin:21-jdk AS builder
 
 WORKDIR /app
 
@@ -11,11 +8,11 @@ COPY . .
 
 RUN ./mvnw -ntp -Pprod clean verify -DskipTests
 
-FROM eclipse-temurin:17.0.9_9-jre-focal
+FROM eclipse-temurin:21-jre-alpine
 
 WORKDIR /app
 
-COPY --from=build /app/target/*.jar /app/app.jar
+COPY --from=builder /app/target/*.jar /app/app.jar
 
 EXPOSE 8080
 
