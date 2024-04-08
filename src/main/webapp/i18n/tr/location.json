@@ -1,0 +1,29 @@
+{
+  "taskApp": {
+    "location": {
+      "home": {
+        "title": "Locations",
+        "refreshListLabel": "Listeyi yenile",
+        "createLabel": "Yeni Location ekle",
+        "createOrEditLabel": "Yeni Location ekle veya guncelle",
+        "notFound": "Locations kaydi bulunamadi"
+      },
+      "created": "{{ param }} ID ile bir Location eklendi",
+      "updated": "{{ param }} nolu Location guncellendi",
+      "deleted": "{{ param }} nolu Location silindi",
+      "delete": {
+        "question": "{{ id }} nolu Location silinecek. Devem etmek istiyor musunuz?"
+      },
+      "detail": {
+        "title": "Location"
+      },
+      "id": "ID",
+      "streetAddress": "Street Address",
+      "postalCode": "Postal Code",
+      "city": "City",
+      "stateProvince": "State Province",
+      "country": "Country",
+      "department": "Department"
+    }
+  }
+}

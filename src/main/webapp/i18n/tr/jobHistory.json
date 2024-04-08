@@ -1,0 +1,29 @@
+{
+  "taskApp": {
+    "jobHistory": {
+      "home": {
+        "title": "Job Histories",
+        "refreshListLabel": "Listeyi yenile",
+        "createLabel": "Yeni Job History ekle",
+        "createOrEditLabel": "Yeni Job History ekle veya guncelle",
+        "notFound": "Job Histories kaydi bulunamadi"
+      },
+      "created": "{{ param }} ID ile bir Job History eklendi",
+      "updated": "{{ param }} nolu Job History guncellendi",
+      "deleted": "{{ param }} nolu Job History silindi",
+      "delete": {
+        "question": "{{ id }} nolu Job History silinecek. Devem etmek istiyor musunuz?"
+      },
+      "detail": {
+        "title": "Job History"
+      },
+      "id": "ID",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "language": "Language",
+      "job": "Job",
+      "department": "Department",
+      "employee": "Employee"
+    }
+  }
+}

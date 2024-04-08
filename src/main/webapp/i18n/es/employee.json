@@ -1,0 +1,37 @@
+{
+  "taskApp": {
+    "employee": {
+      "home": {
+        "title": "Employees",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Employee",
+        "createOrEditLabel": "Crear o editar Employee",
+        "notFound": "Ningún Employees encontrado"
+      },
+      "created": "Un nuevo Employee ha sido creado con el identificador {{ param }}",
+      "updated": "Un Employee ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Employee ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Employee {{ id }}?"
+      },
+      "detail": {
+        "title": "Employee"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "hireDate": "Hire Date",
+      "salary": "Salary",
+      "commissionPct": "Commission Pct",
+      "job": "Job",
+      "manager": "Manager",
+      "department": "Department",
+      "jobHistory": "Job History",
+      "help": {
+        "firstName": "The firstname attribute."
+      }
+    }
+  }
+}

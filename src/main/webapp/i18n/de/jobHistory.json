@@ -1,0 +1,29 @@
+{
+  "taskApp": {
+    "jobHistory": {
+      "home": {
+        "title": "Job Histories",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Job History erstellen",
+        "createOrEditLabel": "Job History erstellen oder bearbeiten",
+        "notFound": "Keine Job Histories gefunden"
+      },
+      "created": "Job History erstellt mit ID {{ param }}",
+      "updated": "Job History aktualisiert mit ID {{ param }}",
+      "deleted": "Job History gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Job History {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Job History"
+      },
+      "id": "ID",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "language": "Language",
+      "job": "Job",
+      "department": "Department",
+      "employee": "Employee"
+    }
+  }
+}

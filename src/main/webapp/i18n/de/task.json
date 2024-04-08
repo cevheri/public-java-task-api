@@ -1,0 +1,26 @@
+{
+  "taskApp": {
+    "task": {
+      "home": {
+        "title": "Tasks",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Task erstellen",
+        "createOrEditLabel": "Task erstellen oder bearbeiten",
+        "notFound": "Keine Tasks gefunden"
+      },
+      "created": "Task erstellt mit ID {{ param }}",
+      "updated": "Task aktualisiert mit ID {{ param }}",
+      "deleted": "Task gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Task {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Task"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "job": "Job"
+    }
+  }
+}

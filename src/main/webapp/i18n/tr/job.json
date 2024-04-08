@@ -1,0 +1,29 @@
+{
+  "taskApp": {
+    "job": {
+      "home": {
+        "title": "Jobs",
+        "refreshListLabel": "Listeyi yenile",
+        "createLabel": "Yeni Job ekle",
+        "createOrEditLabel": "Yeni Job ekle veya guncelle",
+        "notFound": "Jobs kaydi bulunamadi"
+      },
+      "created": "{{ param }} ID ile bir Job eklendi",
+      "updated": "{{ param }} nolu Job guncellendi",
+      "deleted": "{{ param }} nolu Job silindi",
+      "delete": {
+        "question": "{{ id }} nolu Job silinecek. Devem etmek istiyor musunuz?"
+      },
+      "detail": {
+        "title": "Job"
+      },
+      "id": "ID",
+      "jobTitle": "Job Title",
+      "minSalary": "Min Salary",
+      "maxSalary": "Max Salary",
+      "task": "Task",
+      "employee": "Employee",
+      "jobHistory": "Job History"
+    }
+  }
+}

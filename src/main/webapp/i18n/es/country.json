@@ -1,0 +1,26 @@
+{
+  "taskApp": {
+    "country": {
+      "home": {
+        "title": "Countries",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Country",
+        "createOrEditLabel": "Crear o editar Country",
+        "notFound": "Ningún Countries encontrado"
+      },
+      "created": "Un nuevo Country ha sido creado con el identificador {{ param }}",
+      "updated": "Un Country ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Country ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Country {{ id }}?"
+      },
+      "detail": {
+        "title": "Country"
+      },
+      "id": "ID",
+      "countryName": "Country Name",
+      "region": "Region",
+      "location": "Location"
+    }
+  }
+}

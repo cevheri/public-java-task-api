@@ -1,0 +1,37 @@
+{
+  "taskApp": {
+    "employee": {
+      "home": {
+        "title": "Employees",
+        "refreshListLabel": "Listeyi yenile",
+        "createLabel": "Yeni Employee ekle",
+        "createOrEditLabel": "Yeni Employee ekle veya guncelle",
+        "notFound": "Employees kaydi bulunamadi"
+      },
+      "created": "{{ param }} ID ile bir Employee eklendi",
+      "updated": "{{ param }} nolu Employee guncellendi",
+      "deleted": "{{ param }} nolu Employee silindi",
+      "delete": {
+        "question": "{{ id }} nolu Employee silinecek. Devem etmek istiyor musunuz?"
+      },
+      "detail": {
+        "title": "Employee"
+      },
+      "id": "ID",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "phoneNumber": "Phone Number",
+      "hireDate": "Hire Date",
+      "salary": "Salary",
+      "commissionPct": "Commission Pct",
+      "job": "Job",
+      "manager": "Manager",
+      "department": "Department",
+      "jobHistory": "Job History",
+      "help": {
+        "firstName": "The firstname attribute."
+      }
+    }
+  }
+}

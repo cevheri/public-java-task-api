@@ -9,10 +9,10 @@
     <name>Task</name>
     <description>Description for Task</description>
 
-    <version>0.0.7</version>
+    <version>1.0.0</version>
     <properties>
-        <api-ver>0.0.7</api-ver>
-        <container.tag>0.0.7</container.tag>
+        <api-ver>1.0.0</api-ver>
+        <container.tag>1.0.0</container.tag>
         <container.registry>ghcr.io/</container.registry>
         <container.name>task/task</container.name>
 

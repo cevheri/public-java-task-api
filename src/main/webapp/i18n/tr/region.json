@@ -1,0 +1,25 @@
+{
+  "taskApp": {
+    "region": {
+      "home": {
+        "title": "Regions",
+        "refreshListLabel": "Listeyi yenile",
+        "createLabel": "Yeni Region ekle",
+        "createOrEditLabel": "Yeni Region ekle veya guncelle",
+        "notFound": "Regions kaydi bulunamadi"
+      },
+      "created": "{{ param }} ID ile bir Region eklendi",
+      "updated": "{{ param }} nolu Region guncellendi",
+      "deleted": "{{ param }} nolu Region silindi",
+      "delete": {
+        "question": "{{ id }} nolu Region silinecek. Devem etmek istiyor musunuz?"
+      },
+      "detail": {
+        "title": "Region"
+      },
+      "id": "ID",
+      "regionName": "Region Name",
+      "country": "Country"
+    }
+  }
+}

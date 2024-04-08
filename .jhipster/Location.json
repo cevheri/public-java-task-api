@@ -1,0 +1,36 @@
+{
+  "annotations": {
+    "changelogDate": "20240408213020"
+  },
+  "applications": "*",
+  "documentation": "not an ignored comment",
+  "fields": [
+    {
+      "fieldName": "streetAddress",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "postalCode",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "city",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "stateProvince",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Location",
+  "relationships": [
+    {
+      "otherEntityName": "country",
+      "relationshipName": "country",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

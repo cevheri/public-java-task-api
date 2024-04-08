@@ -1,0 +1,27 @@
+{
+  "taskApp": {
+    "department": {
+      "home": {
+        "title": "Departments",
+        "refreshListLabel": "Listeyi yenile",
+        "createLabel": "Yeni Department ekle",
+        "createOrEditLabel": "Yeni Department ekle veya guncelle",
+        "notFound": "Departments kaydi bulunamadi"
+      },
+      "created": "{{ param }} ID ile bir Department eklendi",
+      "updated": "{{ param }} nolu Department guncellendi",
+      "deleted": "{{ param }} nolu Department silindi",
+      "delete": {
+        "question": "{{ id }} nolu Department silinecek. Devem etmek istiyor musunuz?"
+      },
+      "detail": {
+        "title": "Department"
+      },
+      "id": "ID",
+      "departmentName": "Department Name",
+      "location": "Location",
+      "employee": "Employee",
+      "jobHistory": "Job History"
+    }
+  }
+}

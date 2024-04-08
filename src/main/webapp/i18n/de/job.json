@@ -1,0 +1,29 @@
+{
+  "taskApp": {
+    "job": {
+      "home": {
+        "title": "Jobs",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Job erstellen",
+        "createOrEditLabel": "Job erstellen oder bearbeiten",
+        "notFound": "Keine Jobs gefunden"
+      },
+      "created": "Job erstellt mit ID {{ param }}",
+      "updated": "Job aktualisiert mit ID {{ param }}",
+      "deleted": "Job gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Job {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Job"
+      },
+      "id": "ID",
+      "jobTitle": "Job Title",
+      "minSalary": "Min Salary",
+      "maxSalary": "Max Salary",
+      "task": "Task",
+      "employee": "Employee",
+      "jobHistory": "Job History"
+    }
+  }
+}

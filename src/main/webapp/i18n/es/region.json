@@ -1,0 +1,25 @@
+{
+  "taskApp": {
+    "region": {
+      "home": {
+        "title": "Regions",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Region",
+        "createOrEditLabel": "Crear o editar Region",
+        "notFound": "Ningún Regions encontrado"
+      },
+      "created": "Un nuevo Region ha sido creado con el identificador {{ param }}",
+      "updated": "Un Region ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Region ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Region {{ id }}?"
+      },
+      "detail": {
+        "title": "Region"
+      },
+      "id": "ID",
+      "regionName": "Region Name",
+      "country": "Country"
+    }
+  }
+}

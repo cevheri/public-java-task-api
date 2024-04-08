@@ -1,0 +1,29 @@
+{
+  "taskApp": {
+    "location": {
+      "home": {
+        "title": "Locations",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Location",
+        "createOrEditLabel": "Crear o editar Location",
+        "notFound": "Ningún Locations encontrado"
+      },
+      "created": "Un nuevo Location ha sido creado con el identificador {{ param }}",
+      "updated": "Un Location ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Location ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Location {{ id }}?"
+      },
+      "detail": {
+        "title": "Location"
+      },
+      "id": "ID",
+      "streetAddress": "Street Address",
+      "postalCode": "Postal Code",
+      "city": "City",
+      "stateProvince": "State Province",
+      "country": "Country",
+      "department": "Department"
+    }
+  }
+}

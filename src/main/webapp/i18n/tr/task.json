@@ -1,0 +1,26 @@
+{
+  "taskApp": {
+    "task": {
+      "home": {
+        "title": "Tasks",
+        "refreshListLabel": "Listeyi yenile",
+        "createLabel": "Yeni Task ekle",
+        "createOrEditLabel": "Yeni Task ekle veya guncelle",
+        "notFound": "Tasks kaydi bulunamadi"
+      },
+      "created": "{{ param }} ID ile bir Task eklendi",
+      "updated": "{{ param }} nolu Task guncellendi",
+      "deleted": "{{ param }} nolu Task silindi",
+      "delete": {
+        "question": "{{ id }} nolu Task silinecek. Devem etmek istiyor musunuz?"
+      },
+      "detail": {
+        "title": "Task"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "job": "Job"
+    }
+  }
+}

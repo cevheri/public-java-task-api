@@ -1,0 +1,27 @@
+{
+  "taskApp": {
+    "department": {
+      "home": {
+        "title": "Departments",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Department erstellen",
+        "createOrEditLabel": "Department erstellen oder bearbeiten",
+        "notFound": "Keine Departments gefunden"
+      },
+      "created": "Department erstellt mit ID {{ param }}",
+      "updated": "Department aktualisiert mit ID {{ param }}",
+      "deleted": "Department gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Department {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Department"
+      },
+      "id": "ID",
+      "departmentName": "Department Name",
+      "location": "Location",
+      "employee": "Employee",
+      "jobHistory": "Job History"
+    }
+  }
+}
